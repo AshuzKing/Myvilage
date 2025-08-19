@@ -104,7 +104,7 @@ nav {
 .main-content {
   min-height: calc(100vh - 80px);
   padding: 40px 20px;
-  background-image: url("/assets/images/Daringbadi-Odisha.jpeg");
+  background-image: url("Daringbadi-Odisha.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
