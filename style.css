@@ -104,6 +104,11 @@ nav {
 .main-content {
   min-height: calc(100vh - 80px);
   padding: 40px 20px;
+  background-image: url("/assets/images/Daringbadi-Odisha.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .hero-section {
@@ -139,12 +144,13 @@ nav {
   cursor: pointer;
   transition: all 0.3s ease;
   text-transform: uppercase;
+  filter: opacity(-10px);
 }
 
 .cta-button:hover {
   background-color: var(--primary-green);
   transform: translateY(-2px);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); */
 }
 
 /* Responsive styles */
